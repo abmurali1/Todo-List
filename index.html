@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+    <link rel="stylesheet" href="./css/style.css">    
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form class="form-main">
+            <h1>WELCOME TO TODO LIST</h1>
+            <div class="form-group">
+              <label for="title">Title:</label>
+              <input type="text" class="form-control titleField" id="titleText" placeholder="Enter email">
+              <small id="errorText" class="dispnone red">Title name is already there!!</small>
+            </div>
+            <div class="form-group">
+              <label for="descripton">Descripton:</label>
+              <textarea type="text" class="form-control descriptionField" placeholder="Description.."></textarea>
+            </div>
+            <div class="form-group">
+              <button type="button" class="btn btn-primary addButton">Add to List</button>
+            </div>
+            <div class="form-group">
+              <input type="text"
+                class="form-control" name="" onkeyup="fnSearchTodoList(event)" id="searchInput" aria-describedby="helpId" placeholder="Search Todo List..">
+            </div>
+        </form>        
+        <div class="container-fluid" id="added-items"></div>
+        <!-- <div class="container-fluid">
+            <div class="form-group">
+              <label for=""></label>
+              <input type="text"
+                class="form-control" name="" id="" aria-describedby="addedList" placeholder="" disabled>
+              <button>EDIT</button>
+              <button>REMOVE</button>
+            </div>
+        </div> -->
+    </div>
+    
+    <script src="./scripts/main.js"></script>
+</body>
+</html>

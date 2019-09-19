@@ -1,0 +1,80 @@
+.container{
+    background-image: url("../assets/city_bg.jpg");
+    background-color: #cccccc;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.form-main{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+.form-main button{
+    width: 100%;
+    background-color: transparent;
+}
+.form-main button:hover{
+    background-color: rgb(74, 165, 240);
+    color: black;
+    font-weight: 800;
+    opacity: 0.5;
+}
+.input_div{
+    background: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    width: 350px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.btn_div{
+    opacity: 0.8;
+    background-color: rgb(107, 110, 248);
+    border-radius: 20%;
+    padding: 2px;
+}
+.dispnone{
+    display: none;
+}
+.red{
+    color: white;
+}
+.error{
+    background-color: lightcoral
+}
+.maindiv{
+    margin-left: 164px;
+}
+.inputStyle{
+    color: #000;
+    background-color: rgba(228, 241, 247, 0.65);
+    border-radius: 20%;
+    padding: 5px;
+    width: 300px;
+    margin: 5px;
+}
+
+@media (max-width: 763px) {
+    .inputStyle{
+        color: #000;
+        background-color: rgba(228, 241, 247, 0.65);
+        border-radius: 20%;
+        padding: 5px;
+        width: 200px;
+        margin: 5px;
+    }
+    .maindiv {
+        margin-left: 115px;
+    }
+    .maindiv input{
+        width:240px;
+    }
+    h1{
+        font-size: 20px;
+        font-weight: 700;
+    }
+  }
