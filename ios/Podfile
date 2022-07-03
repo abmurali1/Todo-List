@@ -19,6 +19,8 @@ target 'NewApp' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
+  pod 'RNLocalize', :path => '../node_modules/react-native-localize'
+
   target 'NewAppTests' do
     inherit! :complete
     # Pods for testing
