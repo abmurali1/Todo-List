@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "borderBottomColor": "black",
+      "borderBottomWidth": 0.2,
+      "flexDirection": "row",
+      "justifyContent": "flex-start",
+      "padding": 10,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/arrowRight/arrow-right.png",
+        }
+      }
+      style={
+        Object {
+          "height": 20,
+          "marginRight": 100,
+          "transform": Array [
+            Object {
+              "rotate": "180deg",
+            },
+          ],
+          "width": 20,
+        }
+      }
+    />
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "#1b1f16",
+        "fontFamily": "Verdana",
+        "fontSize": 20,
+        "fontWeight": "bold",
+        "textAlign": "center",
+      }
+    }
+  >
+    Click
+  </Text>
+</View>
+`;
