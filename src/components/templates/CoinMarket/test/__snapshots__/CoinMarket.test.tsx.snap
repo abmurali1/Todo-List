@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CoinMarket> renders correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "backgroundColor": "lightgreen",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderBottomColor": "black",
+        "borderBottomWidth": 0.2,
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+        "padding": 10,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/assets/images/arrowRight/arrow-right.png",
+          }
+        }
+        style={
+          Object {
+            "height": 20,
+            "marginRight": 100,
+            "transform": Array [
+              Object {
+                "rotate": "180deg",
+              },
+            ],
+            "width": 20,
+          }
+        }
+      />
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#1b1f16",
+          "fontFamily": "Verdana",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "textAlign": "center",
+        }
+      }
+    >
+      Coin Market
+    </Text>
+  </View>
+  <View>
+    <RCTScrollView
+      data={Array []}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      viewabilityConfigCallbackPairs={Array []}
+    >
+      <View />
+    </RCTScrollView>
+  </View>
+</RCTSafeAreaView>
+`;

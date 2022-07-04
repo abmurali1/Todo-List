@@ -4,5 +4,8 @@
     "crypto_market": "Crypto Market",
     "crypto_coins": "Crypto Coins",
     "coin_details": "Coin Details",
-    "coin_market": "Coin Market"
+    "coin_market": "Coin Market",
+    "want_more_text": "Want know more? Check out official site!!",
+    "official_forum": "Official Forum",
+    "github": "Github"
 }

@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home> renders correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "backgroundColor": "lightgreen",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#1b1f16",
+          "fontFamily": "Arial",
+          "fontSize": 18,
+          "fontWeight": "bold",
+          "textAlign": "center",
+        }
+      }
+    >
+      Crypto Market
+    </Text>
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/assets/images/home/bag.png",
+        }
+      }
+      style={
+        Object {
+          "height": 300,
+          "width": 300,
+        }
+      }
+    />
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#465c47",
+          "borderRadius": 10,
+          "flexDirection": "row",
+          "height": 50,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 200,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Object {
+            "color": "#ccb866",
+            "fontFamily": "Verdana",
+            "fontSize": 20,
+            "letterSpacing": 3,
+          }
+        }
+      >
+        START
+      </Text>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;

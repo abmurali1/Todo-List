@@ -9,7 +9,6 @@ export const request = (url: string, httpMethod: string) => {
           await axios
             .get(url)
             .then(response => {
-              console.log('response--->>>', response);
               if (response) {
                 resolve({response: response});
               } else {
@@ -17,7 +16,6 @@ export const request = (url: string, httpMethod: string) => {
               }
             })
             .catch(error => {
-              console.log('error--->>>', error);
               reject(error);
             });
           break;

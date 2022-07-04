@@ -48,9 +48,7 @@ const CoinDetails: FC<CoinDetailsProps> = props => {
             <Text style={{marginHorizontal: 20, marginTop: 30}}>
               {selectedCoinInfo?.description.en}
             </Text>
-            <Text style={styles.linkText}>
-              {'Want know more? Check out official site!!'}
-            </Text>
+            <Text style={styles.linkText}>{I18n.t('want_more_text')}</Text>
             <View
               style={{flexDirection: 'row', justifyContent: 'space-around'}}>
               <TouchableOpacity
@@ -65,13 +63,15 @@ const CoinDetails: FC<CoinDetailsProps> = props => {
                     selectedCoinInfo?.links?.official_forum_url[0],
                   )
                 }>
-                <Text style={styles.subLinkText}>{'Official Forum'}</Text>
+                <Text style={styles.subLinkText}>
+                  {I18n.t('official_forum')}
+                </Text>
               </TouchableOpacity>
               <TouchableOpacity
                 onPress={() =>
                   Linking.openURL(selectedCoinInfo?.links?.repos_url.github[0])
                 }>
-                <Text style={styles.subLinkText}>{'Github'}</Text>
+                <Text style={styles.subLinkText}>{I18n.t('github')}</Text>
               </TouchableOpacity>
             </View>
           </View>
